@@ -91,21 +91,25 @@ body{
     line-height: 24px;
 }
 .button-orange{
+    width: 100%;
     background-color: #ff7a59;
     color: white;
     text-align: center;
     font-weight: 600;
-    padding:30px;
+    padding:20px;
     margin: 10px 0;
     font-size: 1.1rem;
     border: 1px solid lightgrey;
     border-radius: 3px;
 }
 .p-small{
-    width: 60%;
+    margin: 10px 0;
     font-weight:400;
     padding:10px 0;
     font-size: 15px;
+}
+#button-and-description{
+    width: 60%;
 }
 
 
@@ -115,7 +119,7 @@ body{
 #section-two{
     background-color: #f5f8fa;
 }
-.middle-top::after{
+.middle-top::after, .middle-bottom::after{
     content:"";
     display: table;
     clear: both;
@@ -133,7 +137,7 @@ body{
 }
 .get-started{
     background-color: #fff;
-    padding: 20px;
+    padding: 30px;
 }
 
 /* .get-started h1::before{
@@ -142,6 +146,23 @@ body{
         font-weight: 500;
 } */
 
+.get-started ul{
+    font-size: 15px;
+    list-style:none;
+}
+
+.get-started ul li::before{
+        content:"✓";
+        background-color:#ff7a59;
+        color: white;
+        font-size: 10px;
+        font-weight: 400;
+        padding: 5px;
+        border-radius: 50%;
+}
+.get-started ul li{
+    padding: 10px;
+}
 
 
 
