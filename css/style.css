@@ -76,6 +76,7 @@ body{
 /******___ Stile Section One ___******/
 #section-one{
     background-image: linear-gradient(to top right,#fef8f0,#fff3ee,#fff1ee);
+    border-bottom: 3px solid #33475b;
 }
 .left-section{
     width: 40%;
@@ -133,6 +134,7 @@ body{
     border-radius: 3px;
 }
 .top-one h1{
+    font-size: 35px;
     margin-bottom: 10px;
 }
 .get-started{
