@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* #fff Sfondo header top e quarta sezione large */
+/* #425b76  Sfondo header bottom*/
+/* #7c98b6  Grigio chiaro frecce */
+/* #ff7a59  Arancione bottoni */
+/* #f5f8fa  Sfondo seconda sezione Large */
+/* linear-gradient(45deg,#00a4bd,#00bda5) Sfondo terza sezione Large */
+/* #33475b Colore font e footer */
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #33475b;
+}
+
+.large{
+    width: 100vw;
+    padding: 20px 0;
+}
+
+.container{
+    width: 58%;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+/******___ Stile Header ___******/
+.top-wrapper::after{
+    content: "";
+    display: table;
+    clear:both;
+}
+#top-left{
+    float: left;
+}
+.logo{
+    width: 106px;
+    height: 30px;
+}
+#menu{
+    font-size: 15px;
+    text-align: center;
+    float: right;
+    border: 1px dotted green;
+}
+#menu li{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    border: 1px dotted red;
+}
+#menu a{
+    color: #33475b;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    text-decoration: none;
+    border: 1px dotted blue;
+}
+.dropdown::after{
+    content: "⮟";
+    color: #7c98b6;
+    margin-left: 5px;
+}
+#header-bottom{
+    background-color: #425b76;
+    color: #f5f8fa;
+}
+
+
+
+
+
+
+/******___ Stile Section One ___******/
+#section-one{
+    background-image: linear-gradient(to top right,#fef8f0,#fff3ee,#fff1ee);
+}
+
+
+
+
+
+
+
+
+
+/******___ Stile Section Two ___******/
+#section-two{
+    background-color: #f5f8fa;
+}
+
+/******___ Stile Section Three ___******/
+#section-three{
+    background-image: linear-gradient(45deg,#00a4bd,#00bda5);
+}
+
+/******___ Stile Section Four ___******/
+#section-four{
+}
+
+footer{
+    background-color:  #33475b;
+}
