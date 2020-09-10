@@ -80,9 +80,34 @@ body{
 #section-one{
     background-image: linear-gradient(to top right,#fef8f0,#fff3ee,#fff1ee);
 }
-
-
-
+.left-section{
+    width: 40%;
+    padding:10px;
+}
+.left-section h1{
+    font-size: 50px;
+}
+.left-section .p-normal{
+    font-weight: 300;
+    padding:10px 0;
+    font-size: 18px;
+}
+.left-section .button-orange{
+    background-color: #ff7a59;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    padding:30px;
+    margin: 10px 0;
+    font-size: 1.1rem;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+.left-section .p-small{
+    font-weight:400;
+    padding:10px 0;
+    font-size: 15px;
+}
 
 
 
