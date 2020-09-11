@@ -21,10 +21,10 @@ body{
 }
 .container{
     height: 100%;
-    width: 58%;
+    width: 57%;
     margin: auto;
-    padding: 30px 0;
-    /* border: 1px solid red; */
+    padding: 25px 0;
+    border: 1px solid red;
 }
 a{
     text-decoration: none;
@@ -79,7 +79,7 @@ header{
     color: #33475b;
 }
 .fa-globe-europe{
-    padding: 0 10px;
+    padding-right: 10px;
 }
 #language{
     display: inline-block;
@@ -129,6 +129,7 @@ header{
     clear:both;
 }
 #top-left{
+    height: 100%;
     float: left;
 }
 .logo{
@@ -136,25 +137,23 @@ header{
     height: 30px;
 }
 #menu{
+    height: 100%;
+    padding: 10px 0;
+    float: right;
     font-size: 15px;
     text-align: center;
-    float: right;
 }
 #menu li{
     display: inline-block;
-    height: 30px;
-    line-height: 30px;
-    padding: 0 10px;
 }
 #menu a{
+    display: inline-block;
+    height: 100%;
     color: #33475b;
     font-weight: bold;
-    height: 30px;
-    line-height: 30px;
-    padding: 0 10px;
-
+    padding: 0 15px;
 }
-
+/******______________________ Header Bottom ______________________******/
 #header-bottom{
     background-color: #425b76;
     color: #f5f8fa;
