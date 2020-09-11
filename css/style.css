@@ -16,17 +16,46 @@ body{
 }
 
 .large{
-    width: 100vw;
+    /* width: 100vw; */
     padding: 20px 0;
 }
 
 .container{
     width: 58%;
     margin: auto;
-    padding: 30px 20px;
+    padding: 30px 0;
+    border: 1px dotted red;
+}
+a{
+    text-decoration: none;
 }
 
 /******___ Stile Header ___******/
+.fixed{
+    border: 1px dotted blue;
+    background-color: #f5f8fa;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:0;
+}
+.fixed-left a{
+    color: #33475b;
+    border: 1px dotted red;
+}
+#language{
+    padding: 10px 10px 10px 0;
+    border-right: 2px solid #7c98b6;
+}
+.fa-caret-down{
+    padding:0 10px;
+    color: #7c98b6;
+}
+
+#contact-sales{
+    padding: 10px;
+}
+
 .top-wrapper::after{
     content: "";
     display: table;
@@ -56,7 +85,7 @@ body{
     height: 30px;
     line-height: 30px;
     padding: 0 10px;
-    text-decoration: none;
+
 }
 .dropdown::after{
     content: "⮟";
@@ -66,6 +95,15 @@ body{
 #header-bottom{
     background-color: #425b76;
     color: #f5f8fa;
+}
+#header-bottom p{
+    font-weight: 300;
+    font-size: 18px;
+    padding:0 25px;
+}
+#header-bottom span{
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 
