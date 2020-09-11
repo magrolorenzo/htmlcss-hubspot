@@ -138,7 +138,7 @@ header{
 }
 #menu{
     height: 100%;
-    padding: 10px 0;
+    padding: 15px 0;
     float: right;
     font-size: 15px;
     text-align: center;
@@ -153,6 +153,8 @@ header{
     font-weight: bold;
     padding: 0 15px;
 }
+
+
 /******______________________ Header Bottom ______________________******/
 #header-bottom{
     background-color: #425b76;
@@ -168,44 +170,46 @@ header{
     text-decoration: underline;
 }
 
-
-
-
-
-
-/******___ Stile Section One ___******/
+/******______________________ Stile Section One ______________________******/
 #section-one{
     background-image: linear-gradient(to top right,#fef8f0,#fff3ee,#fff1ee);
     border-bottom: 3px solid #33475b;
+    padding-bottom: 100px;
 }
 .left-section{
     width: 40%;
-    padding:10px;
+    padding:20px 0;
 }
 .left-section h1{
     font-size: 50px;
+    margin: 10px 0;
 }
 .p-normal{
     font-weight: 300;
-    padding:10px 0;
+    margin:10px 0;
     font-size: 18px;
-    line-height: 24px;
-}
-
-.p-small{
-    margin: 10px 0;
-    font-weight:400;
-    padding:10px 0;
-    font-size: 15px;
+    line-height: 27px;
 }
 #button-and-description{
-    width: 60%;
+    width: 50%;
+}
+#button-and-description .button-orange{
+    width: 100%;
+    font-size: 16px;
+    padding: 25px;
+    margin: 10px 0;
+}
+.p-small{
+    font-weight:400;
+    font-size: 15px;
+    line-height: 25px;
+    margin: 10px 0;
 }
 
 
 
 
-/******___ Stile Section Two ___******/
+/******______________________ Stile Section Two ______________________******/
 #section-two{
     background-color: #f5f8fa;
 }
