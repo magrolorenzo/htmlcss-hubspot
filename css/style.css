@@ -221,20 +221,19 @@ header{
     display: table;
     clear: both;
 }
-.middle-top, .middle-bottom{
-    border: 2px solid purple;
-}
 .floating-section{
-    width: calc(33% - 10px);
+    width: calc(33.3% - 10px);
     margin:5px;
     padding: 10px;
     float: left;
-    border: 2px solid black;
     border-radius: 3px;
 }
+.floating-section button{
+    width: 100%;
+    margin: 20px 0;
+}
 .top-one{
-    padding: 10px 0;
-    margin: 5px 0;
+    padding: 10px 0;;
 }
 .top-one h1{
     font-size: 35px;
@@ -243,19 +242,21 @@ header{
 .get-started{
     background-color: #fff;
     padding: 30px;
+    box-shadow: 0 0 5px lightgrey;
 }
-
-/* .get-started h1::before{
-        content:"○";
-        font-size: 60px;
-        font-weight: 500;
-} */
-
+.get-started h1::before{
+        content:"\f1ce";
+        font-family: "Font Awesome 5 Free";
+        font-weight: bold;
+        font-size: 20px;
+}
 .get-started ul{
     font-size: 15px;
     list-style:none;
 }
-
+.get-started ul li{
+    padding: 10px;
+}
 .get-started ul li::before{
         content:"✓";
         background-color:#ff7a59;
@@ -265,9 +266,7 @@ header{
         padding: 5px;
         border-radius: 50%;
 }
-.get-started ul li{
-    padding: 10px;
-}
+
 
 
 
