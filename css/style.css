@@ -43,6 +43,18 @@ a{
     color: #7c98b6;
     padding:0 5px;
 }
+.p-normal{
+    font-weight: 300;
+    margin:10px 0;
+    font-size: 18px;
+    line-height: 27px;
+}
+.p-small{
+    font-weight:400;
+    font-size: 15px;
+    line-height: 25px;
+    margin: 10px 0;
+}
 
 /******______________________ Stile Header ______________________******/
 header{
@@ -184,12 +196,6 @@ header{
     font-size: 50px;
     margin: 10px 0;
 }
-.p-normal{
-    font-weight: 300;
-    margin:10px 0;
-    font-size: 18px;
-    line-height: 27px;
-}
 #button-and-description{
     width: 50%;
 }
@@ -199,13 +205,6 @@ header{
     padding: 25px;
     margin: 10px 0;
 }
-.p-small{
-    font-weight:400;
-    font-size: 15px;
-    line-height: 25px;
-    margin: 10px 0;
-}
-
 
 
 
@@ -271,7 +270,7 @@ header{
 
 
 
-/******___ Stile Section Three ___******/
+/******______________________ Stile Section Three ______________________******/
 #section-three{
     background-image: linear-gradient(45deg,#00a4bd,#00bda5);
     color: white;
@@ -326,35 +325,86 @@ header{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/******___ Stile Section Four ___******/
+/******______________________ Stile Section Four ______________________******/
 #section-four{
+    padding: 50px 0;
 }
+.four-top, .four-bottom{
+    margin: 60px 0;
+}
+.four-top::after, .four-bottom::after, .logos::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.four-top .left-top,.four-top .right-top, .four-bottom .left-bottom {
+    display: inline-block;
+    float: left;
+    width: 50%;
+}
+.text-wrapper{
+    width: 80%;
+    padding-top: 30px;
+}
+.text-wrapper h1{
+    font-size: 45px;
+}
+/* Loghi */
+.logos{
+    padding: 30px 0;
+}
+.logo-wrapper{
+    float:left;
+    width:25%;
+    text-align: center;
+}
+.logo-wrapper img{
+    padding: 20px 0;
+    width:80%;
+    margin: auto;
+}
+.left-bottom .text-wrapper h1{
+    font-size: 40px;
+}
+.four-bottom .button-orange{
+    width: 40%;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+/* Immagine  */
+.four-bottom .right-bottom{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+.right-bottom img{
+    width: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer{
     background-color:  #33475b;
