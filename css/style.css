@@ -16,7 +16,7 @@ body{
     color: #33475b;
 }
 .large{
-    /* width: 100vw; */
+    width: 100vw;
     padding: 20px 0;
 }
 .container{
@@ -271,15 +271,86 @@ header{
 
 
 
-
-
-
-
-
 /******___ Stile Section Three ___******/
 #section-three{
     background-image: linear-gradient(45deg,#00a4bd,#00bda5);
+    color: white;
+    text-align: center;
+    padding-bottom: 180px;
 }
+.title-and-description{
+    width: 60%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.title-and-description h1{
+    font-size: 30px;
+}
+.title-and-description p{
+    line-height: 30px;
+}
+.boxes::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.box{
+    display: inline-block;
+    width: 25%;
+    float: left;
+    padding: 30px
+}
+.top-box{
+    border-bottom: 2px solid white;
+}
+.right-border-box{
+    border-right: 2px solid white;
+}
+.box-icon{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.title-and-span h1{
+    font-size: 45px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.whith-plus::after{
+    content: "+";
+    display: inline-block;
+    font-size: 16px;
+    position:absolute;
+    top:30%;
+    font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /******___ Stile Section Four ___******/
 #section-four{
