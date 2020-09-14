@@ -382,30 +382,32 @@ header{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/******______________________ Stile Footer______________________******/
 footer{
     background-color:  #33475b;
+    color: #cbd6e2;
+}
+footer .container{
+    margin-top: 50px;
+    padding: 30px 0;
+}
+.footer-top::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer-links{
+    float: left;
+    width: 25%;
+}
+.footer-links h2{
+    color: white;
+    font-size: 20px;
+}
+.footer-links ul{
+    list-style: none;
+}
+.footer-links li{
+    padding: 10px 0;
+    font-weight: 300;
 }
